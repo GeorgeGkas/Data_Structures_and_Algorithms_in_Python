@@ -1,0 +1,3 @@
+The equivalent index is:
+
+j = n - |k|, for j >= 0.
