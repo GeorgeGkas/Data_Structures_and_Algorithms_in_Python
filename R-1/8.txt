@@ -1,3 +1,9 @@
-The equivalent index is:
+The equivalent index j, for j >= 0, of a given index k, for -n <= k < 0, is j = n - k, where n is the length of the sequence.
 
-j = n - |k|, for j >= 0.
+Suppose we have a sequence of n elements. For the given indices k and j, as defined above, we'll prove by induction that  k + j = n.
+
+For k = -1, j = n - (-1) = n + 1, we have k + j = -1 + n + 1 = n. 
+Suppose for  k = i, j = n - i, j + k = i + n - i = n.
+Then for k = i + 1, j = n - i - 1, j + k = i + 1 + n - i - 1 = n.
+
+We proved that k + j = n for any sequence of n elements, therefore  j = n - k.
