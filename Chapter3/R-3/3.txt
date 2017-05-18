@@ -1,0 +1,5 @@
+n0 = 21, because for n = n0:
+40n^2 = 40*21^2 = 17640
+2n^3 = 2*21^3 = 18522
+
+thus for all n >= 21 algorithm A is better than B.
