@@ -1,0 +1,3 @@
+Asymptotically the functions are classified as following:
+
+2^10 < 2^logn < nlogn < 4n < 3n+100logn < 2n + 4nlogn < n^2+10n < n^3 < 2^n
