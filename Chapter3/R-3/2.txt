@@ -1,0 +1,5 @@
+n0 = 32, because for n = n0: 
+8nlogn = 8*32*log32 = 1280
+2n^2 = 2*32*2 = 2048
+
+thus for all n >= 32, algorithm A is better than B.
