@@ -13,4 +13,3 @@ def find_max_recursively(S, n):
 
 if __name__ == '__main__':
     print(find_max_recursively([5, 10, 20, 11, 3], 5))
-
