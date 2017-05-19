@@ -1,3 +1,7 @@
+"""
+Read the explanation: http://stackoverflow.com/a/44078249/7982356
+"""
+
 def find_max_recursively(S, n):
     """Find the maximum element in a sequence S, of n elements."""
     if n == 1:  # reached the left most item
