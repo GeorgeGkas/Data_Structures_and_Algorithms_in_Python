@@ -1,5 +1,6 @@
 """
 Read the explanation: http://stackoverflow.com/a/44078249/7982356
+Both running time and space usage are linear, O(n).
 """
 
 def find_max_recursively(S, n):
