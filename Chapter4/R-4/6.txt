@@ -1,0 +1,20 @@
+Function Prototype: harmonic_recursive(n)
+Function Parameters: n - the nth Harmonic number
+
+Function Description: Calculate the nth Harmonic number recursively.
+
+Implementaion details:
+
+Base case: if n == 1: return 1
+
+Recur step: If not the base case, call harmonic_recursive for n-1 and add the
+            the result with 1/n, that is return 1/n + harmonic_recursive(n-1)
+
+Pseudocode:
+
+harmonic_recursive(n):
+    if n == 1:
+        return 1
+    else:
+        return 1/n + harmonic_recursive(n-1)
+
